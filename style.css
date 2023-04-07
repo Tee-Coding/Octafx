@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    @apply rounded-br-xl rounded-tl-xl rounded-bl-xl font-semibold text-black rounded-tr-xl border-2 focus:outline-none py-3 border-[#f3f5fe]  px-6
+}

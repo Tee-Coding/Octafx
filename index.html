@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to your Personal area | OctaFx</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="bg-white relative flex items-center justify-between lg:justify-around py-4">
+        <img src="./Image/logo-octafx_redesign.svg" class="h-6 px-2 sm:px-4 lg:px-0" alt="octafx logo">
+        <div class="lg:flex space-x-4 hidden group-hover:bg-[#F3F5FE] transition-all">
+            <a href="#" class="group hover:bg-[#F3F5FE] rounded-l-3xl  rounded-r-3xl py-2 px-4"><i class="fa-solid fa-circle-user text-[#828CA0] mx-2"></i> OPEN AN ACCOUNT</a>
+            <a href="#" class="group hover:bg-[#F3F5FE] rounded-l-3xl  rounded-r-3xl py-2 px-4"><i class="fa-solid fa-headset text-[#828CA0] mx-2"></i> CUSTOMER SUPPORT</a>
+            <a href="#" class="group hover:bg-[#F3F5FE] rounded-l-3xl  rounded-r-3xl py-2 px-4"><i class="fa-solid fa-download text-[#828CA0] mx-2"></i> DOWNLOAD MTP4</a>
+        </div>
+        <div class="px-1 sm:px-4 lg:px-0">
+            <select name="language" id="">
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+                <option value="akka">Eng</option>
+            </select>
+        </div>
+        <div class="lg:hidden absolute -bottom-4 w-full">
+            <img src="./Image/toggle.svg" class="lg:hidden bg-no-repeat mx-auto bg-cover" alt="">
+        </div>
+    </header>
+    <!-- mobile Navigation -->
+    <div class="bg-white w-full relative hidden flex-col space-y-2 transition-all">
+        <a href="#" class="group hover:bg-[#F3F5FE] py-2 px-4"><i class="fa-solid fa-circle-user text-[#828CA0] mx-3"></i> OPEN AN ACCOUNT</a>
+        <a href="#" class="group hover:bg-[#F3F5FE] py-2 px-4"><i class="fa-solid fa-headset text-[#828CA0] mx-3"></i> CUSTOMER SUPPORT</a>
+        <a href="#" class="group hover:bg-[#F3F5FE] py-2 px-4"><i class="fa-solid fa-download text-[#828CA0] mx-3"></i> DOWNLOAD MTP4</a>
+        <p class="text-xs text-[#828CA0] text-center font-semibold">CLOSE MENU <i class="fa fa-arrow-up"></i></p>
+        <div class="lg:hidden absolute -bottom-4 left-0 right-0">
+            <img src="./Image/toggle.svg" class="lg:hidden bg-no-repeat bg-cover" alt="">
+        </div>
+    </div>
+    <section class="bg-[#F3F5FE] h-fit items-center justify-center py-10 sm:px-4 px-2">
+            <div class="bg-white max-w-4xl xl:max-w-3xl rounded-2xl shadow-sm mx-auto flex flex-col py-5 justify-center items-center">
+                <!-- login inputs & button -->
+                <div class="max-w-xs text-[#828CA0]">
+                    <h1 class="text-black text-center py-2 text-2xl font-bold">Log in to your Personal Area</h1>
+                    <p class="text-center text-base">Please enter your email and password to log in. In your profile, you can manage your trading accounts and other settings.</p>
+                    <div class="flex flex-col py-3 space-y-6">
+                        <input type="email" placeholder="Email" class="">
+                        <div class="relative">
+                            <input
+                              class=" pr-10 pl-3 rounded-lg w-full focus:outline-none rounded-br-xl rounded-tl-xl rounded-bl-xl font-semibold text-black rounded-tr-xl border-2"
+                              type="password"
+                              name="password"
+                              id="password"
+                              placeholder="Password"
+                            />
+                            <label for="password" class="absolute inset-y-0 right-0 pr-3 flex items-center">
+                              <i class="fa fa-eye text-[#828CA0]" ></i>
+                            </label>
+                          </div>
+                          
+                        <span class="text-[#3c34f0] text-[10px] font-bold ">FORGOT PASSWORD?</span>
+                    </div>
+                    <div class="flex flex-col py-3 space-y-3">
+                        <button class="bg-[#3c34f0] hover:bg-[#0026c2] text-white rounded-l-3xl rounded-r-3xl py-4 px-6">LOG IN</button>
+                        <button class="hover:bg-[#e2e6f9] bg-[#f3f5fe] transition-all text-[#3c34f0] rounded-l-3xl rounded-r-3xl py-4 px-6">SIGN UP</button>
+                        <p class="text-center text-black">Or log in with</p>
+                        <!-- socials -->
+                        <div class="flex justify-center items-center pb-3 space-x-2">
+                            <div class=" p-4 w-auto rounded-full hover:bg-[#e2e6f9] bg-[#f3f5fe]">
+                                <img src="./Image/facebook-svgrepo-com.svg" alt="" class="h-6 w-auto">
+                            </div>
+                            <div class="p-4 w-auto rounded-full hover:bg-[#e2e6f9] bg-[#f3f5fe]">
+                                <img src="./Image/google-color-svgrepo-com.svg" alt="" class="h-6 w-auto">
+                            </div>
+                            <div class="p-4 w-auto rounded-full hover:bg-[#e2e6f9] bg-[#f3f5fe]">
+                                <img src="./Image/apple-173-svgrepo-com.svg" alt="" class="h-6 w-auto">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <img src="./Image/octafx_trad-star-ng-pa_696x116_ng.png.png" class="max-w-xs md:max-w-full" alt="">
+            </div>
+            <!-- live chat button for mobile -->
+            <div class="mx-auto py-3 md:max-w-4xl lg:hidden">
+                <button class="bg-white w-full font-bold text-center text-[#3c34f0] py-2 px-4 rounded-2xl "><i class="fa-solid fa-headset"></i> START A LIVE CHAT</button>
+            </div>
+            <!-- footer -->
+            <footer class="max-w-4xl xl:max-w-3xl mx-auto pt-3 pb-10">
+                <div class="flex w-full flex-wrap space-y-4 md:flex-nowrap md:space-x-2 mx-auto">
+                    <ul class="md:w-1/4 w-2/4 space-y-2 text-base text-[#828CA0]">
+                        <li class="font-semibold text-black">Servicies</li>
+                        <li>FAQ</li>
+                        <li>Platforms tutorials:videos</li>
+                        <li>Economic  Calender</li>
+                        <li>Forex Calculator</li>
+                        <li>Affiliate Program</li>
+                    </ul>
+                    <ul class="md:w-1/4 w-2/4 space-y-2 text-base text-[#828CA0]">
+                        <li class="font-semibold text-black">Offers</li>
+                        <li>50% bonus</li>
+                        <li>Contests</li>
+                        <li>Copy trading</li>
+                    </ul>
+                    <ul class="md:w-1/4 w-2/4 space-y-2 text-base text-[#828CA0]">
+                        <li class="font-semibold text-black">Legal Information</li>
+                        <li>Risk disclosure</li>
+                        <li>Privacy policy</li>
+                        <li>Return Policy</li>
+                    </ul>
+                    <ul class="md:w-1/4 w-2/4 space-y-2 text-base text-[#828CA0]">
+                        <li class="font-semibold text-black">Social</li>
+                        <div class="flex space-x-2 text-[#828CA0] text-xl">
+                            <i class="fa-brands fa-facebook hover:text-blue-800"></i>
+                            <i class="fa-brands fa-instagram hover:text-[#e4405f]"></i>
+                            <i class="fa-brands fa-twitter hover:text-[#1da1f2]"></i>
+                            <i class="fa-brands fa-youtube hover:text-red-600"></i>
+                        </div>
+                        <li>Personal Area in your Phone</li>
+                        <a href="#"><img src="./Image/Google_Play_Store_badge_EN.svg" class="filter grayscale hover:grayscale-0 transition-all" alt=""></a>
+                    </ul>
+                </div>
+                <div class="py-5 w-full mx-auto">
+                    <p class="text-sm text-[#828CA0]">Registered address: Suite 305, Griffith Corporate Centre, Beachmont, Kingstown, St. Vincent and the Grenadines.
+                        © 2023 Octa Markets Incorporated. Business reg. no. 19776 IBC 2011 </p>
+                    <a href="#" class="text-[#3c34f0] text-xs"> support@octafx.com</a>
+                </div>
+            </footer>
+    </section>
+    <!-- Fixed live chat button for desktop -->
+    <button class="text-white h-16 w-16 text-3xl p-3  rounded-full bg-[#3c34f0] hidden lg:block fixed bottom-5 left-7"><i class="fa-solid fa-headset"></i></button>
+</body>
+</html>
